@@ -25,10 +25,10 @@ public class Jugador {
 	        Jugador.this.setY(Jugador.this.getY() - power);
 	    }
 	 public void derecha(int power) {
-	        Jugador.this.setY(Jugador.this.getX() + power);
+	        Jugador.this.setX(Jugador.this.getX() + power);
 	    }
 	 public void izquierda(int power) {
-	        Jugador.this.setY(Jugador.this.getY() - power);
+	        Jugador.this.setX(Jugador.this.getY() - power);
 	    }
 
 }
